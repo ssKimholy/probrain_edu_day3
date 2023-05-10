@@ -1,0 +1,187 @@
+body {
+    width: 100vw;
+    height: 200vh;
+    overflow-x: hidden;
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: palevioletred;
+}
+
+.introduce {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.introduceText {
+    color: palevioletred;
+}
+
+.introduceImg {
+    width: 20vw;
+    height: 20vw;
+}
+
+.introduceTextFirst {
+    font-size: 2vw;
+    font-weight: 500;
+    margin: 2vh 0;
+}
+
+.introduceTextSecond {
+    font-size: 6vw;
+    font-weight: 700;
+    margin: 2vh 0;
+}
+
+.introduceTextThird {
+    font-size: 3vw;
+    font-weight: 600;
+    margin: 2vh 0;
+}
+
+.introduceTextFourth {
+    font-size: 2vw;
+    font-weight: 500;
+    margin: 2vh 0;
+    font-family: 'Caveat', cursive;
+}
+
+/* day2 */
+
+.wrapContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    font-size: 2.4vw;
+    font-weight: 600;
+    color: #FAA8A8;
+    border: 2px solid #FAA8A8;
+    margin-right: 5vw;
+    margin-left: 1vw;
+    border-radius: 3vw;
+    padding: 2vw;
+    box-shadow: 0.2px 3px 2px red;
+    cursor: pointer;
+}
+
+#favoriteContainer {
+    display: none;
+}
+
+#favorite {
+    width: 40vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    font-size: 1vw;
+    font-weight: 600;
+    color: black;
+}
+
+.favoriteItem {
+    width: 11vw;
+    height: 10vh;
+}
+
+.favoriteText {
+    width: 5vw;
+    height: 2.5vh;
+    text-align: center;
+}
+
+.favoriteItems {
+    width: 15vw;
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #D7BDE2;
+    margin: 3vw;
+    padding: 2vw;
+}
+
+#musicContainer {
+    width: 40vw;
+    height: 30vh;
+    margin-left: 2vw;
+    display: block;
+}
+
+#musicContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+.musicItemContainer {
+    width: 35vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-bottom: 3vh;
+    border: 1.8px solid #FF4646;
+    border-radius: 5vw;
+}
+
+.musicItemContainer:hover {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+
+.musicItemContainer img {
+    width: 8vw;
+    height: 8vh;
+    border-radius: 50%;
+}
+
+#mbtiContainer {
+    display: none;
+}
+
+#mbtiContent {
+    display: flex;
+    flex-direction: column;
+}
+
+#mbtiImgContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+#mbti {
+    font-size: 11vw;
+    font-family: fantasy;
+    margin-top: 2vw;
+    margin-right: -2vw;
+    margin-left: 6vw;
+    margin-bottom: 0px;
+    padding: 2vw;    
+}
+
+#mbtiImg {
+    width: 100%;
+    height: 65%;
+}
+
+#mbtiDes {
+    font-size: 1.3vw;
+    font-family: 'Caveat', cursive;
+}
