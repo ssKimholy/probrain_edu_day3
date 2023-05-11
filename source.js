@@ -2,7 +2,7 @@ const fvSection = document.getElementById("favoriteSection");
 const musicSection = document.getElementById("musicSection");
 const mbtiSection = document.getElementById("mbtiSection");
 const favoriteContainer = document.getElementById("favoriteContainer");
-const musicContainer = document.getElementById("music");
+const musicContainer = document.getElementById("musicContainer");
 const mbtiContainer = document.getElementById("mbtiContainer");
 
 
